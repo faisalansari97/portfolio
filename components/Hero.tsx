@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, Phone, MapPin, Download, ArrowRight } from "lucide-react";
 import { PERSONAL_INFO } from "../constants";
+import profileImage from "../assets/profile_image1.jpg";
 
 export const Hero = () => {
   return (
@@ -107,7 +108,7 @@ export const Hero = () => {
               {/* Image Container with Shape */}
               <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 rotate-3 hover:rotate-0 transition-transform duration-500 ease-out">
                 <img
-                  src={"../assets/profile_image1.jpg"}
+                  src={profileImage}
                   alt={PERSONAL_INFO.name}
                   className="w-full h-full object-cover transform scale-105 hover:scale-100 transition-transform duration-700"
                 />
