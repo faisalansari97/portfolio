@@ -14,7 +14,7 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-10 md:py-24  bg-white dark:bg-slate-900/50 relative"
+      className="py-10 md:py-24  bg-white dark:bg-slate-900 relative"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-8 md:mb-16">

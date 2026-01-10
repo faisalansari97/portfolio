@@ -35,7 +35,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-10 md:py-24 bg-slate-50 dark:bg-slate-900"
+      className="py-10 md:py-24 bg-slate-50 dark:bg-slate-950"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center mb-8 md:mb-12 gap-6">

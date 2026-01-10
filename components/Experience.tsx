@@ -6,7 +6,7 @@ export const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-10 md:py-24 bg-white dark:bg-slate-950"
+      className="py-10 md:py-24 bg-white dark:bg-slate-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8 md:mb-16 text-center">
