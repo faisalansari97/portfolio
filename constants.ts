@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
   phone: "+918866740058",
   location: "Ahmedabad, Gujarat, India",
   linkedin: "https://linkedin.com/in/faisalansari97",
-  bio: "Senior software engineer with 6+ years of hands-on experience building scalable mobile and web products using React Native, React.js, and Next.js. Expert in building scalable, high-performance cross-platform apps with clean UI/UX.",
+  bio: "Helping companies ship scalable digital products for over 6 years. I leverage the power of React Native, React.js, and Next.js to craft pixel-perfect user interfaces and high-performance architectures that grow with your business.",
 };
 
 export const SKILLS = [
@@ -71,13 +71,13 @@ export const EXPERIENCE = [
       "Developed cross-platform app using Expo and React Native with optimized list rendering.",
     ],
   },
-  {
-    company: "Freelance / Contract",
-    role: "Principal Software Engineer",
-    period: "Various",
-    description:
-      "Delivered high-quality mobile and web solutions for various clients, focusing on POS systems, educational platforms, and business analytics.",
-  },
+  // {
+  //   company: "Freelance / Contract",
+  //   role: "Principal Software Engineer",
+  //   period: "Various",
+  //   description:
+  //     "Delivered high-quality mobile and web solutions for various clients, focusing on POS systems, educational platforms, and business analytics.",
+  // },
   {
     company: "Solulab",
     role: "React Native Developer",
