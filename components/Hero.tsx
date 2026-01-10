@@ -75,18 +75,14 @@ export const Hero = () => {
                     className="group-hover:translate-x-1 transition-transform"
                   />
                 </a>
-                <button
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1CpfvFL9vJ54edqB-FKg0jDwNXCGxZX0g"
+                  download="Your_Name_CV.pdf"
                   className="px-6 py-3 md:px-8 md:py-4 text-sm md:text-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 font-bold rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm hover:shadow-md flex items-center gap-2"
-                  onClick={() => {
-                    window.open(
-                      "https://drive.google.com/file/d/1CpfvFL9vJ54edqB-FKg0jDwNXCGxZX0g/view?usp=sharing",
-                      "_blank"
-                    );
-                  }}
                 >
                   <Download size={18} />
                   Download CV
-                </button>
+                </a>
               </div>
             </div>
           </div>

@@ -36,7 +36,7 @@ export const Testimonials = () => {
               </div>
 
               <div className="mb-6 relative z-10">
-                <p className="text-slate-700 dark:text-slate-300 italic leading-relaxed text-lg">
+                <p className="text-slate-700 dark:text-slate-300 italic leading-relaxed text-md md:text-lg">
                   "{testimonial.content}"
                 </p>
               </div>
