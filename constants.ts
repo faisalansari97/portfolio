@@ -1,10 +1,10 @@
 export const PERSONAL_INFO = {
   name: "Faisal Ansari",
-  title: "Senior Frontend & Mobile Developer",
+  title: "Senior Software Engineer",
   email: "mailtofaisal97@gmail.com",
   phone: "+918866740058",
   location: "Ahmedabad, Gujarat, India",
-  linkedin: "https://linkedin.com/in/faisalansari",
+  linkedin: "https://linkedin.com/in/faisalansari97",
   bio: "Senior software engineer with 6+ years of hands-on experience building scalable mobile and web products using React Native, React.js, and Next.js. Expert in building scalable, high-performance cross-platform apps with clean UI/UX.",
 };
 
@@ -13,13 +13,18 @@ export const SKILLS = [
     title: "Frontend & Mobile",
     skills: [
       "React Native",
+      "Expo",
       "React.js",
       "Next.js",
-      "Expo",
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
       "Redux",
       "Zustand",
       "Context API",
-      "React Query",
+      "Tanstack Query",
+      "Tanstack Router",
       "Flexbox",
     ],
   },
@@ -32,20 +37,21 @@ export const SKILLS = [
       "Algolia Search",
       "REST API",
       "Google Analytics",
+      "SQLite",
     ],
   },
   {
     title: "Core & Tools",
     skills: [
-      "JavaScript",
-      "TypeScript",
-      "HTML5",
-      "CSS3",
+      "LLMS",
+      "Cursor",
+      "OpenCode",
+      "Claude Code",
+      "Offline-first Architecture",
+      "Performance Optimization",
       "Git",
       "Sentry",
       "Crashlytics",
-      "SQLite",
-      "Offline-first Arch",
     ],
   },
 ];
@@ -53,7 +59,7 @@ export const SKILLS = [
 export const EXPERIENCE = [
   {
     company: "FittingRoom",
-    role: "Principal Software Engineer",
+    role: "Senior Software Engineer",
     period: "March 2020 - Present",
     location: "Remote (Riyadh, KSA)",
     description:
@@ -95,8 +101,16 @@ export const PROJECTS = [
     ],
     links: [
       { label: "Website", url: "https://fittingroom.store", type: "web" },
-      { label: "Android", url: "#", type: "android" },
-      { label: "iOS", url: "#", type: "ios" },
+      {
+        label: "Android",
+        url: "https://play.google.com/store/apps/details?id=fittingroom.store",
+        type: "android",
+      },
+      {
+        label: "iOS",
+        url: "https://apps.apple.com/us/app/fittingroom-store/id1506808689",
+        type: "ios",
+      },
     ],
   },
   {
@@ -119,8 +133,16 @@ export const PROJECTS = [
       "Language learning platform offering 164 languages with 10,000+ instructional phrases per language.",
     tech: ["Mobile", "Audio Streaming", "Content Delivery"],
     links: [
-      { label: "Android", url: "#", type: "android" },
-      { label: "iOS", url: "#", type: "ios" },
+      {
+        label: "Android",
+        url: "https://play.google.com/store/apps/details?id=com.pronunciatorllc.bluebird",
+        type: "android",
+      },
+      {
+        label: "iOS",
+        url: "https://apps.apple.com/us/app/bluebird-learn-163-languages/id1484286928",
+        type: "ios",
+      },
     ],
   },
   {
@@ -130,8 +152,11 @@ export const PROJECTS = [
       "All-in-One Platform for businesses to manage orders, loyalty programs, and AI marketing.",
     tech: ["AI Marketing", "POS", "Billing"],
     links: [
-      { label: "Android", url: "#", type: "android" },
-      { label: "iOS", url: "#", type: "ios" },
+      {
+        label: "Android",
+        url: "https://play.google.com/store/apps/details?id=com.waakif_b2b_app",
+        type: "android",
+      },
     ],
   },
   {
@@ -141,8 +166,16 @@ export const PROJECTS = [
       "Leading journal and storytelling platform helping users write private journals or collaborate on group stories.",
     tech: ["Collaboration", "Social"],
     links: [
-      { label: "Android", url: "#", type: "android" },
-      { label: "iOS", url: "#", type: "ios" },
+      {
+        label: "Android",
+        url: "https://play.google.com/store/apps/details?id=com.lugelo.mobile",
+        type: "android",
+      },
+      {
+        label: "iOS",
+        url: "https://apps.apple.com/ro/app/lugelo/id1174397068",
+        type: "ios",
+      },
     ],
   },
 ];
