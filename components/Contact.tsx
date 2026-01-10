@@ -30,7 +30,7 @@ export const Contact = () => {
         <div className="flex md:flex-col sm:flex-row gap-2 md:gap-4 justify-center items-center mb-16">
           <a
             href={`mailto:${PERSONAL_INFO.email}`}
-            className="md:w-full sm:w-auto px-4 md:px-8 py-2 md:py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-bold text-sm md:text-lg transition-all shadow-lg hover:shadow-primary-500/25 hover:-translate-y-1 flex items-center justify-center gap-1 md:gap-2"
+            className="md:w-full sm:w-auto px-4 md:px-8 py-2 md:py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-xl font-bold text-sm md:text-lg transition-all shadow-lg hover:shadow-primary-500/25 hover:-translate-y-1 flex items-center justify-center gap-2"
           >
             <Mail size={20} />
             Say Hello
@@ -39,14 +39,14 @@ export const Contact = () => {
             href={PERSONAL_INFO.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="md:w-full sm:w-auto px-4 md:px-8 py-2 md:py-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-primary-500 dark:hover:border-primary-500 text-slate-700 dark:text-slate-200 rounded-xl font-bold text-sm md:text-lg transition-all hover:shadow-md hover:-translate-y-1 flex items-center justify-center gap-1 md:gap-2 group"
+            className="md:w-full sm:w-auto px-4 md:px-8 py-2 md:py-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-primary-500 dark:hover:border-primary-500 text-slate-700 dark:text-slate-200 rounded-xl font-bold text-sm md:text-lg transition-all hover:shadow-md hover:-translate-y-1 flex items-center justify-center gap-2 group"
           >
             <Linkedin size={20} className="text-[#0077b5]" />
-            LinkedIn Profile
-            <ArrowRight
+            LinkedIn
+            {/* <ArrowRight
               size={18}
               className="group-hover:translate-x-1 transition-transform"
-            />
+            /> */}
           </a>
         </div>
 
