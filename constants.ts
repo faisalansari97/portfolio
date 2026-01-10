@@ -149,24 +149,24 @@ export const PROJECTS = [
 
 export const TESTIMONIALS = [
   {
-    name: "Alex Thompson",
-    role: "Product Owner",
-    company: "Lugelo Inc.",
-    content:
-      "Faisal is an exceptional developer who truly understands the mobile landscape. His work on Lugelo's journaling features was precise, and he solved complex synchronization challenges with ease.",
-  },
-  {
-    name: "Hassan Al-Amri",
-    role: "CEO",
+    name: "Ahmed Elgamili",
+    role: "Product Manager",
     company: "FittingRoom",
     content:
-      "Leading our technical team, Faisal delivered a robust e-commerce platform that handles thousands of users. His ability to manage both the web and mobile ecosystem is outstanding.",
+      "I had the pleasure of collaborating with Faisal on multiple projects throughout our time at Fittingroom. He is a dedicated, insightful, and reliable team player who consistently produces excellent work. He has a keen eye for spotting errors and a creative approach to problem-solving that often led to more robust solutions. His dedication to producing high-quality work is second to none.A true asset to any team—highly recommended",
   },
-  {
-    name: "Sarah Jenkins",
-    role: "Project Manager",
-    company: "TechSolutions",
-    content:
-      "One of the most reliable engineers I've worked with. Faisal brings not just coding skills, but a product mindset that helps refine requirements and improve user experience.",
-  },
+  // {
+  //   name: "Hassan Al-Amri",
+  //   role: "CEO",
+  //   company: "FittingRoom",
+  //   content:
+  //     "Leading our technical team, Faisal delivered a robust e-commerce platform that handles thousands of users. His ability to manage both the web and mobile ecosystem is outstanding.",
+  // },
+  // {
+  //   name: "Sarah Jenkins",
+  //   role: "Project Manager",
+  //   company: "TechSolutions",
+  //   content:
+  //     "One of the most reliable engineers I've worked with. Faisal brings not just coding skills, but a product mindset that helps refine requirements and improve user experience.",
+  // },
 ];

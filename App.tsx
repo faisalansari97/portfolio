@@ -51,7 +51,7 @@ export default function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0 flex items-center">
               <span className="font-bold text-xl text-slate-900 dark:text-white">
-                Faisal.Dev
+                Faisal.A
               </span>
             </div>
 
@@ -61,7 +61,7 @@ export default function App() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className={`text-sm font-medium transition-colors ${
+                  className={`text-md font-medium transition-colors ${
                     activeSection === link.href.substring(1)
                       ? "text-primary-600 dark:text-primary-400"
                       : "text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white"

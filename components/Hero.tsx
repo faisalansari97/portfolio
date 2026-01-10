@@ -1,7 +1,6 @@
 import React from "react";
 import { Mail, Phone, MapPin, Download, ArrowRight } from "lucide-react";
 import { PERSONAL_INFO } from "../constants";
-import profileImage from "../assets/profile_image1.jpg";
 
 export const Hero = () => {
   return (
@@ -54,7 +53,7 @@ export const Hero = () => {
                     </div>
                     {PERSONAL_INFO.email}
                   </a>
-                  <a
+                  {/* <a
                     href={`tel:${PERSONAL_INFO.phone}`}
                     className="group flex items-center gap-2 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
@@ -62,7 +61,7 @@ export const Hero = () => {
                       <Phone size={18} />
                     </div>
                     {PERSONAL_INFO.phone}
-                  </a>
+                  </a> */}
                   <div className="flex items-center gap-2">
                     <div className="p-2 bg-slate-100 dark:bg-slate-800 rounded-lg">
                       <MapPin size={18} />
@@ -108,7 +107,7 @@ export const Hero = () => {
               {/* Image Container with Shape */}
               <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 rotate-3 hover:rotate-0 transition-transform duration-500 ease-out">
                 <img
-                  src={profileImage}
+                  src={"images/profile_image1.jpg"}
                   alt={PERSONAL_INFO.name}
                   className="w-full h-full object-cover transform scale-105 hover:scale-100 transition-transform duration-700"
                 />
@@ -117,12 +116,12 @@ export const Hero = () => {
 
               {/* Floating Elements */}
               <div
-                className="absolute -bottom-6 -left-6 bg-white dark:bg-slate-900 p-4 rounded-xl shadow-xl border border-slate-100 dark:border-slate-800 hidden md:block animate-bounce"
+                className="absolute -bottom-4 -left-4 md:-bottom-6 md:-left-6 bg-white dark:bg-slate-900 p-2 md:p-4 rounded-lg md:rounded-xl shadow-xl border border-slate-100 dark:border-slate-800 block animate-bounce"
                 style={{ animationDuration: "3s" }}
               >
-                <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm font-semibold text-slate-700 dark:text-slate-200">
+                <div className="flex items-center gap-2 md:gap-3">
+                  <div className="w-2 h-2 md:w-3 md:h-3 bg-green-500 rounded-full animate-pulse"></div>
+                  <span className="text-xs md:text-sm font-semibold text-slate-700 dark:text-slate-200">
                     Open to work
                   </span>
                 </div>

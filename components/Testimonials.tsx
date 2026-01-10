@@ -3,6 +3,7 @@ import { TESTIMONIALS } from "../constants";
 import { Quote } from "lucide-react";
 
 export const Testimonials = () => {
+  const isSingle = TESTIMONIALS.length === 1;
   return (
     <section id="testimonials" className="py-24 bg-slate-50 dark:bg-slate-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,7 +16,13 @@ export const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          className={
+            isSingle
+              ? "flex justify-center gap-8"
+              : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          }
+        >
           {TESTIMONIALS.map((testimonial, idx) => (
             <div
               key={idx}
