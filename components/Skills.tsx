@@ -14,10 +14,10 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-24  bg-white dark:bg-slate-900/50 relative"
+      className="py-10 md:py-24  bg-white dark:bg-slate-900/50 relative"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">
             Technical Expertise
           </h2>
@@ -30,7 +30,7 @@ export const Skills = () => {
           {SKILLS.map((category, idx) => (
             <div
               key={idx}
-              className="bg-white dark:bg-slate-900 rounded-2xl p-8 shadow-sm border border-slate-100 dark:border-slate-800 hover:shadow-md transition-shadow duration-300"
+              className="bg-white dark:bg-slate-900 rounded-2xl p-4 md:p-8 shadow-sm border border-slate-100 dark:border-slate-800 hover:shadow-md transition-shadow duration-300"
             >
               <div className="flex items-center gap-4 mb-6">
                 <div className="p-3 bg-slate-50 dark:bg-slate-800 rounded-xl">

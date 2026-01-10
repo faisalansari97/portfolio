@@ -1,12 +1,12 @@
 import React from "react";
-import { Mail, Linkedin, ArrowRight, MapPin } from "lucide-react";
+import { Mail, Linkedin, ArrowRight } from "lucide-react";
 import { PERSONAL_INFO } from "../constants";
 
 export const Contact = () => {
   return (
     <section
       id="contact"
-      className="pt-24 pb-5 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800"
+      className="pt-10 md:pt-24 pb-0 md:pb-5 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800"
     >
       <div className="max-w-4xl mx-auto px-4 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-50 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400 text-sm font-medium mb-6">

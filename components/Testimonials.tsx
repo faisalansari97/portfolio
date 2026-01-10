@@ -5,9 +5,12 @@ import { Quote } from "lucide-react";
 export const Testimonials = () => {
   const isSingle = TESTIMONIALS.length === 1;
   return (
-    <section id="testimonials" className="py-24 bg-slate-50 dark:bg-slate-950">
+    <section
+      id="testimonials"
+      className="py-10 md:py-24 bg-slate-50 dark:bg-slate-950"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">
             What People Say
           </h2>
@@ -26,7 +29,7 @@ export const Testimonials = () => {
           {TESTIMONIALS.map((testimonial, idx) => (
             <div
               key={idx}
-              className="bg-slate-50 dark:bg-slate-900/40 rounded-2xl p-8 border border-slate-100 dark:border-slate-800 relative hover:shadow-lg transition-shadow duration-300 flex flex-col"
+              className="bg-slate-50 dark:bg-slate-900/40 rounded-2xl p-5 md:p-8 border border-slate-150 dark:border-slate-800 relative hover:shadow-lg transition-shadow duration-300 flex flex-col"
             >
               <div className="absolute top-6 right-8 text-primary-200 dark:text-primary-900/50">
                 <Quote size={40} className="fill-current" />

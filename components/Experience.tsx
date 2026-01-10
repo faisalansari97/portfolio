@@ -4,9 +4,12 @@ import { Briefcase, Calendar, MapPin, Building2 } from "lucide-react";
 
 export const Experience = () => {
   return (
-    <section id="experience" className="py-24 bg-white dark:bg-slate-950">
+    <section
+      id="experience"
+      className="py-10 md:py-24 bg-white dark:bg-slate-950"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-16 md:text-center">
+        <div className="mb-8 md:mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white">
             Work Experience
           </h2>
@@ -20,7 +23,7 @@ export const Experience = () => {
           {EXPERIENCE.map((exp, idx) => (
             <div
               key={idx}
-              className="group relative bg-slate-50 dark:bg-slate-900/40 rounded-2xl p-6 md:p-8 border border-slate-100 dark:border-slate-800 hover:border-primary-200 dark:hover:border-primary-800/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary-900/5 flex flex-col h-full"
+              className="group relative bg-slate-50 dark:bg-slate-900/40 rounded-2xl p-5 md:p-8 border border-slate-100 dark:border-slate-800 hover:border-primary-200 dark:hover:border-primary-800/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary-900/5 flex flex-col h-full"
             >
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                 <div>
