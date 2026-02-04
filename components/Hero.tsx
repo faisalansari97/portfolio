@@ -76,8 +76,8 @@ export const Hero = () => {
                   />
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1BgC0OJlchSyiTSrjiZ4poNIM1p1bU56m/view?usp=sharing"
-                  download="FAISAL_ANSARI_CV.pdf"
+                  href="https://drive.google.com/file/d/1oPt-ji6rZD0r6M_VacR9uB5poV69gQgl/view?usp=sharing"
+                  download="FAISAL_ANSARI_REACT.pdf"
                   className="px-6 py-3 md:px-8 md:py-4 text-sm md:text-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 font-bold rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-all shadow-sm hover:shadow-md flex items-center gap-2"
                 >
                   <Download size={18} />
