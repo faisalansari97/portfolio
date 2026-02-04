@@ -24,8 +24,8 @@ export const SKILLS = [
       "Zustand",
       "Context API",
       "Tanstack Query",
-      "Tanstack Router",
-      "Flexbox",
+      "Monorepo",
+      "Micro Frontend Architecture"
     ],
   },
   {
@@ -38,20 +38,21 @@ export const SKILLS = [
       "REST API",
       "Google Analytics",
       "SQLite",
+      "CI/CD",
     ],
   },
   {
     title: "Core & Tools",
     skills: [
-      "LLMS",
       "Cursor",
       "OpenCode",
       "Claude Code",
       "Offline-first Architecture",
       "Performance Optimization",
-      "Git",
       "Sentry",
       "Crashlytics",
+      "Jest",
+      "Microsoft Clarity"
     ],
   },
 ];

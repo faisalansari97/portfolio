@@ -65,9 +65,9 @@ export const Projects = () => {
                       {project.role}
                     </p>
                   </div>
-                  <div className="p-2 bg-slate-50 dark:bg-slate-800 rounded-full text-slate-400 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                  {/* <div className="p-2 bg-slate-50 dark:bg-slate-800 rounded-full text-slate-400 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                     <ArrowUpRight size={20} />
-                  </div>
+                  </div> */}
                 </div>
 
                 <p className="text-slate-600 dark:text-slate-400 mb-4 md:mb-6 leading-relaxed flex-1">
